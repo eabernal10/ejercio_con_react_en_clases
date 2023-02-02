@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 10s linear;
+  }
+}
+.App-header {
+  background-image:url(https://fondosmil.com/fondo/12537.jpg);
+  min-height: 100vh;
+  size-adjust:auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: blue;
+}
+
+.App-header {
+  background-color: #63cef8;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 255, 221);
+}
+
+.App-link {
+  color: #61dafb;
+}
+.card-head{
+  background-color: black;
+  background-size:cover;
+  background-repeat: no-repeat ;
+  font-style: oblique;
+  color: white;
+}
+.card-body{
+  background-image: url(https://i.pinimg.com/736x/63/2d/7a/632d7aefee10a70b7b6a2253d340800c.jpg);
+  background-size:cover;
+  background-repeat: no-repeat ;
+  color: black;
+}
+.card-foot{
+  background-color: black;
+  background-size:cover;
+  background-repeat: no-repeat ;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
